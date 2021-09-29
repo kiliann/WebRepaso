@@ -1,0 +1,157 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #119574;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Estilos del menu y submenu con sus efectos*/
+#menu{
+    border: 3px solid black ;
+    border-radius:5px 5px;
+    margin: 50px 150px 50px;
+    background-color: cornflowerblue;
+    width:1600px;
+
+    float: left;
+}
+ul, ol{
+    list-style: none;
+}
+.submenu {
+
+    margin-right: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial;
+}
+.submenu li a:hover{
+    background-color: #305fb6;
+
+}
+.submenu li a{
+    display: block;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.submenu > li{
+    float: left;
+    background-color: cornflowerblue;
+}
+.submenu li ul{
+    display: none;
+
+}
+.submenu li:hover > ul{
+    display: block;
+}
+/*Estilo de todos los parrafos de la web que esten dentro de un div*/
+div p {
+    font-family: Arial;
+    text-align: justify;
+    line-height : 25px;
+    margin: 0px 200px;
+}
+/*Estilo de h3 antes de la tabla*/
+div h3{
+    margin-left: 280px;
+    font-family: "Arial Black";
+}
+/*Estilos de la tabla*/
+table{
+    border: 1px black solid;
+    margin-left: 280px;
+    margin-bottom: 100px;
+    background-color: red;
+
+}
+th, td{
+    border: 1px black solid;
+    background-color: aliceblue;
+    font-family: "Comic Sans MS";
+    padding:10px 10px;
+
+}
+
+/*Estlo de la imagen y el menu otras*/
+.imagenes{
+    margin:40px 200px;
+}
+
+div img{
+    width: 200px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+.tamañoImg{
+    margin-left: 750px;
+    height: 600px;
+    width: 500px;
+}
+#otras{
+    margin: 0px 550px;
+    width: 800px;
+    height: 1200px;
+}
+/*Estilos del fomulario*/
+#formulario{
+    background-color: bisque;
+    display: block;
+    float: left;
+    margin: 0px 550px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+#formulario label{
+
+    margin: 50px 30px;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+}
+#formulario input{
+    margin-top: 50px;
+    margin-left:50px;
+}
+#formulario textarea{
+    margin-left: 50px;
+}
+#formulario input #boton{
+    margin-left: 250px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+/*Estilos del pie de pagina*/
+footer{
+    height: 200px;
+    width: 1600px;
+    margin: 0px 150px;
+    border: 1px solid black ;
+    background-color: cornflowerblue;
+    float: left;
+}
+footer ul{
+    margin-top: 50px;
+}
+footer p{
+    margin-left: 300px;
+    font-family: "Comic Sans MS";
+
+}
