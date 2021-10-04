@@ -2,30 +2,35 @@
     margin:0px;
     padding:0px;
 }
-div{
+#caja1 #caja2 #caja3{
     Float: left;
 
 }
 #caja1{
     background: red;
     height: 200px;
-    width: 475px;
-
+    /*  width: 475px;*/
+    Float: left;
 }
 #caja2{
     background: yellow;
     height: 200px;
-    width: 478px;
+    /*width: 478px;
     /*margin-top: 30px;
       margin-bottom: 30px;
       margin-left: 30px;
       margin-right: 30px;*/
+    Float: left;
 }
 #caja3{
     background: green;
     height: 200px;
-    width: 474px;
+    /*width: 474px;
     /* margin-top: 30px;
      margin-left: 30px;
      margin-right: 30px;*/
+    Float: left;
+}
+#cajadefuera{
+    overflow:hidden;
 }
