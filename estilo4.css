@@ -1,0 +1,15 @@
+#cajadefuera{
+    margin: 50px;
+    background: violet;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+#caja1{
+    background: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
